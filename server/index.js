@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const io = new Server(8000, {
+const io = new Server("https://video-tz4x.onrender.com", {
   cors: true,
 });
 
